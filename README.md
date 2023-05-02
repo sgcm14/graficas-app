@@ -4,40 +4,29 @@ GraficasApp
 > En este proyecto se usó Angular, Bootstrap
 
 
-![](https://raw.githubusercontent.com/sgcm14/formularios-app/main/doc/imagen1.png)
-> Pantalla de **Template - Básicos**
+![](https://raw.githubusercontent.com/sgcm14/graficas-app/main/doc/imagen1.png)
+> Pantalla de **Gráfica de Barras**
 
 
-![](https://raw.githubusercontent.com/sgcm14/formularios-app/main/doc/imagen2.png)
-> Pantalla de **Template - Dinámicos**
+![](https://raw.githubusercontent.com/sgcm14/graficas-app/main/doc/imagen2.png)
+> Pantalla de **Gráfica Dobles**
 
 
-![](https://raw.githubusercontent.com/sgcm14/formularios-app/main/doc/imagen3.png)
-> Pantalla de **Template - Switches**
+![](https://raw.githubusercontent.com/sgcm14/graficas-app/main/doc/imagen3.png)
+> Pantalla de **Gráfica de Dona**
 
+Para el consumo de la BD, se debe levantar con el siguiente comando **json-server --watch db.json** ó ejecutando ```npm run backend``` en la terminal se visualiza asi:
 
-![](https://raw.githubusercontent.com/sgcm14/formularios-app/main/doc/imagen4.png)
-> Pantalla de **Reactive - Básicos**
-
-
-![](https://raw.githubusercontent.com/sgcm14/formularios-app/main/doc/imagen5.png)
-> Pantalla de **Reactive - Dinámicos**
-
-
-![](https://raw.githubusercontent.com/sgcm14/formularios-app/main/doc/imagen6.png)
-> Pantalla de **Reactive - Switches**
-
-
-![](https://raw.githubusercontent.com/sgcm14/formularios-app/main/doc/imagen7.png)
-> Pantalla de **Validaciones - Registro**
-
-
-Para la validación de email se debe levantar la BD con el siguiente comando **json-server --watch db.json** ó ejecutando ```npm run backend``` en la terminal se visualiza asi:
-
-![](https://raw.githubusercontent.com/sgcm14/formularios-app/main/doc/db-json.png)
+![](https://raw.githubusercontent.com/sgcm14/graficas-app/main/doc/db-json.png)
 > Pantalla de **BD Json-server**
 
-Al hacerlo validará que el correo no esté registrado, se mostrará un mensaje: **El email ya fue tomado** en el caso de ya tenerlo registrado en la BD.
+Al hacerlo se obtiene la data para luego ser pintada en la gráfica como se muestra a continuación.
+
+![](https://raw.githubusercontent.com/sgcm14/graficas-app/main/doc/imagen4.png)
+> Pantalla de **Gráfica de Dona con API**
+
+
+
 
 
 **Realizado por :** Sammy Gigi Cantoral Montejo (sgcm14)
